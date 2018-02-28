@@ -12,17 +12,7 @@ var articles ={
     heading:'Article One',
     date:'feb 28, 2018',
     content:` <p>
-                This is the content for my first html.This is the content for my first html.This is the content for my first html.s the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.
-                
-            </p>
-             <p>
-                This is the content for my first html.This is the content for my first html.This is the content for my first html.s the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.
-                
-            </p>
-            <p>
-                This is the content for my first html.This is the content for my first html.This is the content for my first html.
-                This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.
-                
+               Hello Indrani.
             </p>`
     
 },
