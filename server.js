@@ -12,6 +12,7 @@ var articles ={
     heading:'Article One',
     date:'feb 28, 2018',
     content:` <p>
+     <img src="/ui/subh.jpg" class="img-medium"/>
                Hello Indrani.
             </p>`
     
