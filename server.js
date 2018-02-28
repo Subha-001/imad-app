@@ -22,7 +22,7 @@ var articleOne ={
                 This is the content for my first html.This is the content for my first html.This is the content for my first html.
                 This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.This is the content for my first html.
                 
-            </p`
+            </p>`
     
 };
 function createTemplate (data){
