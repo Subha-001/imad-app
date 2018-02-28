@@ -13,7 +13,7 @@ var articles ={
     date:'feb 28, 2018',
     content:` <p>
       <img src="/ui/madi.png" class="img-medium"/>
-               Hello Indrani.
+              
             </p>`
     
 },
