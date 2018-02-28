@@ -12,7 +12,7 @@ var articles ={
     heading:'Article One',
     date:'feb 28, 2018',
     content:` <p>
-      <img src="/ui/madi.png" class="img-medium"/>
+            This is my first web app.
               
             </p>`
     
