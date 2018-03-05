@@ -19,6 +19,6 @@ button.onclick = function() {
     };   
     
      //make the request
-    request.open('GET','http://amisubhasish100.imad.hasura-app.io//counter',true);
+    request.open('GET','http://amisubhasish100.imad.hasura-app.io/counter',true);
     request.send(null);
 };
