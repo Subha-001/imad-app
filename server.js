@@ -113,7 +113,7 @@ var names=[];
 app.get('/submit-name/:name',function(req,res) {
    //get the name frm the request object
    var name=req.params.name;
-   name.push(name);
+   names.push(name);
    
    res.send(JSON.stringfy(names));
 });
