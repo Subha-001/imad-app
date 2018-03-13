@@ -23,11 +23,10 @@ button.onclick = function() {
    request.send(null);
 };
 
-var nameinput=document.getElementById('name');
-var name = nameinput.value;
+
 var submit=document.getElementById('submit_btn');
 
-button.onclick = function() { 
+submit.onclick = function() { 
     
    //create a request object
     var request=new XMLHttpRequest();
@@ -50,6 +49,8 @@ button.onclick = function() {
     };   
     
      //make the request
+     var nameinput=document.getElementById('name');
+     var name = nameinput.value;
     request.open('GET', 'http://amisubhasish100.imad.hasura-app.io/submit-name?name='+name,true);
     request.send(null);
 };
