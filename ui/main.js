@@ -23,6 +23,9 @@ button.onclick = function() {
 };
 
 
+ var nameinput=document.getElementById('name');
+     var name = nameinput.value;
+
 var submit=document.getElementById('submit_btn');
 
 submit.onclick = function() { 
@@ -48,8 +51,7 @@ submit.onclick = function() {
     };   
     
      //make the request
-     var nameinput=document.getElementById('name');
-     var name = nameinput.value;
+    
     request.open('GET', 'http://amisubhasish100.imad.hasura-app.io/submit-name?name='+name,true);
     request.send(null);
 };
